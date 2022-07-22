@@ -1,0 +1,1 @@
+dissolveSprite = noone;
