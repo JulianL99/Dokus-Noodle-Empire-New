@@ -1,11 +1,21 @@
 songId = m_doku_EDM_test;
+
+
+priority = 100;
+loops = true;
+
+globalvar bpm, stepsPerBeat;
 bpm = 136;
-bps = 136/60;
-gameSpeed = game_get_speed(gamespeed_fps);
+beatMs = 60000000/(bpm);
+noteDTime = 0;
+noteCount = 0;
+
+stepsPerBeat = 1 / (bpm/3600);
 
 
-audio_play_sound(songId, 100, true);
+muted = true;
+audio_sound_gain(songId, 0, 0);
+play = false;
+event_user(1);
 
-muted = false;
-
-event_user(0);
+global.quarterNotePulse = false;

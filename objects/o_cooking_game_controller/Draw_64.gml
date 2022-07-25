@@ -1,5 +1,8 @@
 if (selectedRecipeLookupStruct != noone) {
 	
+	draw_text(10, 40, "Score: " + string(currentScore));
+	draw_text(10, 60, "Perfect Hits: " + string(perfectHits));
+	
 	#region Draw Recipe Interface
 	var cur_color = draw_get_color();
 

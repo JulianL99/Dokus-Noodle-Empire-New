@@ -9,6 +9,9 @@ if (global.pickedUpItemId != noone && kitchenwareState == KITCHENWARE_STATE.wait
 		totalCookingTime = random_range(400, 500);
 		// Create incredient
 		cookingItemObject = instance_create_depth(x, y, depth - 1, cookingItemInfo.itemObjectIndex);
+		with (cookingItemObject) {
+			inKitchenware = true;
+		}
 
 		destroyPickedUpItem();
 		if (instance_exists(pointingArrowObject)) {
@@ -16,6 +19,6 @@ if (global.pickedUpItemId != noone && kitchenwareState == KITCHENWARE_STATE.wait
 		}
 		
 		// Start cooking state
-		event_user(4);
+		event_user(5);
 	}
 }

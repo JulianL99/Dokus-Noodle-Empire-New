@@ -6,16 +6,19 @@ switch (kitchenwareState) {
 		break;
 	case KITCHENWARE_STATE.cooking:
 		// Increment timer, check for random rhythm game occurrence
-		cookingTime++;
+		/*cookingTime++;
+		
+		// Check for rhythm game occurrence
+		var chance = irandom_range(0, 100);
+		if (chance == 0) {
+			event_user(5);
+		}
 		
 		if (cookingTime >= totalCookingTime) {
 			cookingTime = totalCookingTime;
-			var cookedSprite = cookingItemInfo.ingredientCookedSprite;
-			with (cookingItemObject) {
-				previousSprite = cookedSprite != undefined && cookedSprite != noone ? cookedSprite : previousSprite;	
-			}
+
 			event_user(6);
-		}
+		}*/
 		break;
 	case KITCHENWARE_STATE.rhythm_game:
 		// Not sure yet

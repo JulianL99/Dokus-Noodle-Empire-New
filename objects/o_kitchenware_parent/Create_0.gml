@@ -14,3 +14,10 @@ totalTimeSpriteFrames = sprite_get_number(timerSprite);
 // Default usesTimer = true
 usesTimer = true;
 timerY = 0;
+
+// Rhythm Game bar x and y
+rhythmBarX = x;
+rhythmBarY = y;
+
+
+rhythmGameMainBarObject = o_rhythm_game_main_bar;

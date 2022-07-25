@@ -39,3 +39,6 @@ function SmokeParticleLookup(_basic, _medium, _intense) constructor {
 
 global.panSmokeParticleLookup = new SmokeParticleLookup(o_pan_smoke_particles_basic, 
 	o_pan_smoke_particles_medium, o_pan_smoke_particles_intense);
+
+currentScore = 0;
+perfectHits = 0;

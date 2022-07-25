@@ -1,0 +1,2 @@
+defaultSprite = s_ui_rhythm_game_input_catcher_medium_static;
+bumpSprite = s_ui_rhythm_game_input_catcher_medium_white_bump;

@@ -59,9 +59,13 @@ global.recipeLookup = initRecipeLookup();
 global.ingredientLookup = initIngredientLookup();
 
 
+enum GAME_STATE {
+	paused,
+	normal,
+	rhythm_game
+}
 
-
-
+global.gameState = GAME_STATE.normal;
 
 
 room_goto(main_room);
