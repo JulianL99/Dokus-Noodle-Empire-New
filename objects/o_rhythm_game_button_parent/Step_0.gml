@@ -19,8 +19,6 @@ if (place_meeting(x, y, inputCatcherObject) && !selfDestruct && getRhythmGameAny
 	
 	var dist = point_distance(x, y, inputCatcherObject.x, inputCatcherObject.y);
 	var addAmount = (1 - (dist / (inputCatcherObject.sprite_width / 2))) + 1;
-	
-	show_debug_message(addAmount);
 
 	
 	if (script_execute(inputCheckScript)) {

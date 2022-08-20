@@ -9,7 +9,6 @@ if (global.quarterNotePulse == true && sequenceIndex < array_length(buttonSequen
 
 if (sequenceIndex >= array_length(buttonSequenceArray) && !instance_exists(o_rhythm_game_button_parent)) {
 
-		global.gameState = GAME_STATE.normal;
 		with (kitchenwareObjectId) {
 			event_user(6);
 		}

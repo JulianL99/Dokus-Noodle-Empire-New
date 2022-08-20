@@ -2,6 +2,7 @@
 if (global.pickedUpItemId != noone && kitchenwareState == KITCHENWARE_STATE.waiting_for_ingredient) {
 	var processingOptions = global.ingredientLookup[global.pickedUpItemId].processingOptions;
 	var processingOption = processingOptionsContainsKitchenware(itemId, processingOptions);
+
 	if (processingOption != noone) {
 		cookingItemId = processingOption.processedIngredientId;
 		

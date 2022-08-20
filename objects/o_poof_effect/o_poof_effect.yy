@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_cooking_particles_add_food_effect_strip60",
-    "path": "sprites/s_cooking_particles_add_food_effect_strip60/s_cooking_particles_add_food_effect_strip60.yy",
+    "name": "s_cooking_particles_add_food_effect",
+    "path": "sprites/s_cooking_particles_add_food_effect/s_cooking_particles_add_food_effect.yy",
   },
   "solid": false,
   "visible": true,
